@@ -95,4 +95,17 @@ export const Card = styled.div`
     }
   }
 }
+
+@media screen and (max-width: 499px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+    min-width: 14rem;
+
+    &__img {
+      width: 100%;
+      height: 12rem;
+    }
+  }
+  }
 `
