@@ -26,7 +26,7 @@ export const Footer = () => {
               />
             </svg>
           </a>
-          <a href="https://www.instagram.com/felartesdigitais/">
+          <a href="https://www.instagram.com/fl__artes/">
             <svg
               className="instalogo"
               xmlns="http://www.w3.org/2000/svg"
