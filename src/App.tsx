@@ -9,6 +9,7 @@ import calendario from './images/calendario.jpg'
 import placasMdf from './images/placasmdf.jpg'
 import redesSociais from './images/redessociais.jpg'
 import visitCard from './images/visitCard.jpg'
+import panfleto from './images/panfleto.png'
 
 const App = () => {
   return (
@@ -47,6 +48,11 @@ const App = () => {
             img={calendario}
             title="Calendário"
             description="Tamanho A4 • Arte + Impressão"
+          />
+          <Cards
+            img={panfleto}
+            title="Panfleto"
+            description="Arte + Impressão"
           />
         </C.cardWrapper>
       </div>
