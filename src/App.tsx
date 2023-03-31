@@ -11,6 +11,7 @@ import redesSociais from './images/redessociais.jpg'
 import visitCard from './images/visitCard.jpg'
 import panfleto from './images/panfleto.png'
 import tags from './images/tags.png'
+import convite from './images/convite.png'
 
 const App = () => {
   return (
@@ -58,6 +59,11 @@ const App = () => {
            <Cards
             img={tags}
             title="Tags"
+            description="Arte + Impressão"
+          />
+           <Cards
+            img={convite}
+            title="Convites"
             description="Arte + Impressão"
           />
         </C.cardWrapper>
