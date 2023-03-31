@@ -56,8 +56,8 @@ const App = () => {
             description="Arte + Impressão"
           />
            <Cards
-            img={panfleto}
-            title="Panfleto"
+            img={tags}
+            title="Tags"
             description="Arte + Impressão"
           />
         </C.cardWrapper>
