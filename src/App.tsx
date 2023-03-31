@@ -10,6 +10,7 @@ import placasMdf from './images/placasmdf.jpg'
 import redesSociais from './images/redessociais.jpg'
 import visitCard from './images/visitCard.jpg'
 import panfleto from './images/panfleto.png'
+import tags from './images/tags.png'
 
 const App = () => {
   return (
@@ -50,6 +51,11 @@ const App = () => {
             description="Tamanho A4 • Arte + Impressão"
           />
           <Cards
+            img={panfleto}
+            title="Panfleto"
+            description="Arte + Impressão"
+          />
+           <Cards
             img={panfleto}
             title="Panfleto"
             description="Arte + Impressão"
