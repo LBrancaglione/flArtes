@@ -5,13 +5,14 @@ import { LeftRightSection } from "./components/leftRightSection";
 import { RightLefttSection } from "./components/rightLeftSection";
 import { Footer } from "./components/footer";
 import { TextImageSection } from "./components/textImageSection";
-import calendario from './images/calendario.jpg'
-import placasMdf from './images/placasmdf.jpg'
-import redesSociais from './images/redessociais.jpg'
-import visitCard from './images/visitCard.jpg'
-import panfleto from './images/panfleto.png'
-import tags from './images/tags.png'
-import convite from './images/convite.png'
+import calendario from "./images/calendario.jpg";
+import placasMdf from "./images/placasmdf.jpg";
+import redesSociais from "./images/redessociais.jpg";
+import visitCard from "./images/visitCard.jpg";
+import panfleto from "./images/panfleto.png";
+import tags from "./images/tags.png";
+import convite from "./images/convite.png";
+import cardapio from "./images/cardapio.png";
 
 const App = () => {
   return (
@@ -56,15 +57,16 @@ const App = () => {
             title="Panfleto"
             description="Arte + Impressão"
           />
-           <Cards
-            img={tags}
-            title="Tags"
-            description="Arte + Impressão"
-          />
-           <Cards
+          <Cards img={tags} title="Tags" description="Arte + Impressão" />
+          <Cards
             img={convite}
             title="Convites"
             description="Arte + Impressão"
+          />
+          <Cards
+            img={cardapio}
+            title="Cardápios"
+            description="Arte + Impressão e acabamento"
           />
         </C.cardWrapper>
       </div>
