@@ -26,9 +26,9 @@ export const rightNav = styled.ul<{ open?: boolean }>`
 
   .listItem:hover {
     font-weight: bolder;
-    border: 2px solid #356EE8;
+    border: 2px solid #e94d01;
     border-radius: 20px;
-    background-color: #356EE8;
+    background-color: #e94d01;
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
@@ -37,7 +37,7 @@ export const rightNav = styled.ul<{ open?: boolean }>`
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #356EE8;
+    background-color: #224897;
     position: fixed;
     transform: ${(props) =>
       props.open ? "translateX(0)" : "translateX(100%)"};
@@ -48,6 +48,7 @@ export const rightNav = styled.ul<{ open?: boolean }>`
     padding-top: 3.5rem;
     margin: 0;
     transition: transform 0.3s ease-in-out;
+    z-index: 100 !important;
 
     .listItem {
       color: #fff;

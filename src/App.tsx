@@ -1,10 +1,8 @@
 import * as C from "./app.styles";
 import * as N from "./components/navbar";
 import { Cards } from "./components/cards";
-import { LeftRightSection } from "./components/leftRightSection";
-import { RightLefttSection } from "./components/rightLeftSection";
 import { Footer } from "./components/footer";
-import { TextImageSection } from "./components/textImageSection";
+import { WorksScroll } from "./components/worksScroll";
 import calendario from "./images/calendario.jpg";
 import placasMdf from "./images/placasmdf.jpg";
 import redesSociais from "./images/redessociais.jpg";
@@ -23,11 +21,7 @@ const App = () => {
         </C.Header>
       </div>
       <div id="about">
-        <LeftRightSection />
-        <RightLefttSection />
-      </div>
-      <div id="services">
-        <TextImageSection />
+        <WorksScroll />
       </div>
       <div id="products">
         <h1 className="cardTitle">Nossos Serviços</h1>

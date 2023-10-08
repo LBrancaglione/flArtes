@@ -13,6 +13,7 @@ export const StyledBurger = styled.div<{ open?: boolean }>`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+    z-index: 101 !important;
   }
 
   div {

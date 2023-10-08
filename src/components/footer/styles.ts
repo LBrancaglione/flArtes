@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
   width: 100%;
   height: 100%;
-  background-color: #356EE8;
+  background: #111111;
   text-align: center;
 `;
 
@@ -31,7 +31,7 @@ export const SocialLinks = styled.div`
 
   .linklist a{
     text-decoration: none;
-    color: #152B5C;
+    color: white;
   }
 
   .iconslinks {
